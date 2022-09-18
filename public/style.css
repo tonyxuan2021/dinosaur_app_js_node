@@ -12,4 +12,44 @@ html {
 body {
   margin: 0;
   padding: 0;
+  background: url("./eutah-mizushima-OWwK_0_EnxY-unsplash.jpg") no-repeat center
+    center/cover;
+  color: darkblue;
+}
+
+.generator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#dinoImage {
+  max-width: 100%;
+  max-height: 355px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+#btnLoad {
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: white;
+  background-color: darkcyan;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+#dinoName {
+  font-size: 1.6rem;
+  color: white;
+  padding: 0.25rem;
+}
+
+h1 {
+  font-size: 3rem;
+  color: red;
 }
